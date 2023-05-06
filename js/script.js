@@ -6,7 +6,7 @@ const imgPerPage = 20;
 let currentImg = 0;
 
 // Fetch images from photos folder
-fetch("/photos")
+fetch("photos")
   .then(response => response.text())
   .then(data => {
     const parser = new DOMParser();
