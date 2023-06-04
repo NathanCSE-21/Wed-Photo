@@ -37,8 +37,8 @@ h1 {
   margin-top: 20px;
 }
 
-.prev-button,
-.next-button {
+.prev-btn,
+.prev-btn {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4CAF50;
@@ -49,8 +49,8 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-.prev-button:hover,
-.next-button:hover {
+.prev-btn:hover,
+.prev-btn:hover {
   background-color: #45a049;
 }
 

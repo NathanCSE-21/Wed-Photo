@@ -20,6 +20,11 @@ function fetchImages(page) {
 
   // Generate image elements and append them to the image container
   for (let i = startIndex; i < endIndex && i < totalImages; i++) {
+    const imageLink = document.createElement('a');
+    imageLink.href = `photos/image${i + 1}.jpg`;
+    imageLink.download = `image${i + 1}.jpg`;
+    imageContainer.appendChild(imageLink);
+
     const image = document.createElement('img');
     image.classList.add('image');
     image.src = `photos/image${i + 1}.jpg`;
