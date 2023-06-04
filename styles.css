@@ -24,8 +24,8 @@ h1 {
 }
 
 .image {
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 100%;
   margin: 10px;
   object-fit: cover;
   box-sizing: border-box;
